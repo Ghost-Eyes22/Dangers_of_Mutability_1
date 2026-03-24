@@ -27,6 +27,9 @@ is NOT changed.
 #
 def add_item(lst: list, item) -> list:
     lst.append(item)   # BUG: mutates original list
+    
+
+
     return lst
 
 
@@ -45,7 +48,8 @@ def add_item(lst: list, item) -> list:
 #   lst -> [1, 2, 3]
 #
 def remove_item(lst: list, item) -> list:
-    lst.remove(item)   # BUG
+    lst.remove(item)     # BUG
+    new_list = 
     return lst
 
 
